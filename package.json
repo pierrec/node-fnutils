@@ -1,0 +1,31 @@
+{
+  "author": "Pierre Curto"
+, "name": "fnarg"
+, "description": "Function arguments processing"
+, "keywords": ["function","argument","process"]
+, "version": "0.0.1"
+, "homepage": "http://github.com/pierrec/node-fnarg"
+, "repository": {
+    "type": "git"
+  , "url": "git://github.com/pierrec/node-fnarg.git"
+  }
+, "main": "./index.js"
+, "bugs": { "url" : "http://github.com/pierrec/node-fnarg/issues" }
+, "licenses":
+  [ {
+      "type": "MIT"
+    , "url": "http://github.com/pierrec/node-fnarg/raw/master/LICENSE"
+    }
+  ]
+, "engines": {
+    "node": ">= 0.6"
+  }
+, "dependencies": {
+  }
+, "devDependencies": {
+    "mocha": ">= 0.10"
+  }
+, "scripts": {
+    "test": "mocha test/*-test.js"
+  }
+}
