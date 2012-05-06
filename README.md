@@ -4,7 +4,7 @@
 
 Collection of function processing utilities:
 
-* `slice(arguments, index)` (_arguments Object_, number): returns an array of the `arguments` items starting at `index`
+* `slice(arguments, index)` (_arguments Object_, _number_): returns an array of the `arguments` items starting at `index`
 * `head(function)` (_Array_): returns an array of the function named arguments
 * `body(function)` (_string_): returns the function source code
 
@@ -40,6 +40,6 @@ __Output__
     test arguments (type=object, length=2) [ 1, true ]
     HEAD [ 'a', 'b', 'c' ]
     BODY 
-    	var args = fnutils.slice(arguments, 0)
+    	var args = fnutils.slice(arguments, b)
 
-    	console.log('test arguments (type=%s)', typeof args, args)
+    	console.log('test arguments (type=%s, length=%d)', typeof args, args.length, args)
