@@ -1,20 +1,20 @@
 {
   "author": "Pierre Curto"
-, "name": "fnarg"
-, "description": "Function arguments processing"
-, "keywords": ["function","argument","process"]
+, "name": "fnutils"
+, "description": "Collection of utils for Functions"
+, "keywords": ["function","arguments"]
 , "version": "0.0.1"
-, "homepage": "http://github.com/pierrec/node-fnarg"
+, "homepage": "http://github.com/pierrec/node-fnutils"
 , "repository": {
     "type": "git"
-  , "url": "git://github.com/pierrec/node-fnarg.git"
+  , "url": "git://github.com/pierrec/node-fnutils.git"
   }
 , "main": "./index.js"
-, "bugs": { "url" : "http://github.com/pierrec/node-fnarg/issues" }
+, "bugs": { "url" : "http://github.com/pierrec/node-fnutils/issues" }
 , "licenses":
   [ {
       "type": "MIT"
-    , "url": "http://github.com/pierrec/node-fnarg/raw/master/LICENSE"
+    , "url": "http://github.com/pierrec/node-fnutils/raw/master/LICENSE"
     }
   ]
 , "engines": {
